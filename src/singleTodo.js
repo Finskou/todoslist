@@ -11,11 +11,18 @@ export default class SingleTodo extends Component {
 
     render(){
         return (
-
-            <ul>
-                <li>{this.props.todo}<button onClick={this.props.delete}>Delete</button></li>
-            </ul>
-
+        <ul>
+            <li>{this.props.todo}<button onClick={this.props.delete}>Delete</button></li>
+        </ul>
         )
     }
 }
+//Same action, using simply a function 
+
+// const SingleTodo= props => {
+//     return (
+//         <ul>
+//             <li>{props.todo}<button onClick={props.delete}>Delete</button></li>
+//         </ul>
+//     )
+// }
