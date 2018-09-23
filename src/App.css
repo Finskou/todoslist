@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.container {
+  max-width: 550px;
+  margin: 10% auto;
+  padding: 20px;
+  padding-top: 50px;
+  background-color: #000000; 
+  opacity: 0.9;
+  border-radius: 10px;
+  overflow: hidden;
+  box-sizing: border-box;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 1);
+  color: white;
+  margin-top: -2px;
+  display: center;
+  text-align: center;
+}
+
+#root .App{
+  background: url('yellow.jpg') no-repeat center fixed;
+  background-size: cover;
+  -webkit-background-size: cover; 
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  min-width: 100%;
+  min-height: 100%;
+  padding-top: 2%;
+}
+
+ul {
+  list-style:none;
+  margin-left:0;
+  padding-left:0;
+  }
+  li {
+  margin-bottom:15px;/* à adapter */
+  }
